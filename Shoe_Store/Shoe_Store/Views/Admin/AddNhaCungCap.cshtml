@@ -1,0 +1,25 @@
+﻿@model Shoe_Store.Models.NhaCungcap
+
+<h2>Thêm Sản Phẩm </h2>
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Tên Nhà Cung Cấp</label>
+        <input type="text" class="form-control" asp-for="TenNhaCungCap">
+        <span class="text-danger" asp-validation-for="TenNhaCungCap">Vui lòng nhập trường này</span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Địa Chỉ</label>
+        <input type="text" class="form-control" asp-for="DiaChi">
+        <span class="text-danger" asp-validation-for="DiaChi">Vui lòng nhập trường này</span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Số điện thoại</label>
+        <input type="text" class="form-control" asp-for="SoDienThoai">
+        <span class="text-danger" asp-validation-for="SoDienThoai">Vui lòng nhập trường này</span>
+    </div>
+
+    <div>
+        <button class="btn btn-success" type="submit">Thêm</button>
+    </div>
+
+</form>
