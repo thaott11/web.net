@@ -1,4 +1,4 @@
-# vision 
+# version
 net 6.0 
 # nuget packages
 -  Microsoft.EntityFrameworkCore
